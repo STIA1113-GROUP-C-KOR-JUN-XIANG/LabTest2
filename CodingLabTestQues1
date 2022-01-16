@@ -1,0 +1,19 @@
+package Quiz1;
+import java.util.Scanner;
+public class Quiz2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a number:");
+		int number = sc.nextInt();
+		if(number%2 == 0  ) {
+			System.out.println("It is an Even Number");
+			System.out.println("bye!");
+		}else {
+			System.out.println("It is a Odd Number");
+			System.out.println("bye!");
+		}
+	}
+
+}
