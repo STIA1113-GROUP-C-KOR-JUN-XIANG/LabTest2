@@ -9,7 +9,7 @@ public class Question2 {
 		Scanner sc = new Scanner(System.in);
 		int x;
 		int sum = 0;
-		double average;
+		double average=0;
 		int mark[] = new int[3];
 		for(x=0; x<mark.length; x++) {
 			System.out.println("Enter the mark (0-100) for student "+(x+1)+":");
@@ -20,9 +20,10 @@ public class Question2 {
 			}
 			sum = sum+mark[x];
 			average = sum/3;
-			System.out.printf("Average is %.2f", average);
 			
 		}
+		System.out.printf("Average is %.2f", average);
+		System.out.println();
 		
 	}
 
